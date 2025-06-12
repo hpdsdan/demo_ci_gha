@@ -5,6 +5,9 @@ install:
 test:
 	pytest --cov
 
+test_ut:
+	python -m unittest
+
 lint:
 	pylint *.py
 

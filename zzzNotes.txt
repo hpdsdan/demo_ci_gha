@@ -1,4 +1,8 @@
-virtualenv ~/.env
+virtualenv ~/.venv
+source ./.venv/bin/activate
 
 touch requirements.txt
 touch Makefile
+
+coverage report
+coverage html
